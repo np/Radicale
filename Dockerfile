@@ -9,4 +9,4 @@ WORKDIR  /data
 ENV HOME /data
 EXPOSE 5232
 
-CMD ["python", "-u", "radicale.py", "-C", "/data/config"]
+CMD ["python", "-u", "/opt/radicale/radicale.py", "-C", "/data/config"]
